@@ -29,6 +29,9 @@ box5.addEventListener('contextmenu', function(){
     box5.style.backgroundColor = 'green'
     console.log('Вызов контекстного меню')
 })
+function rand(max){
+    return Math.floor(Math.random()*max);
+    }
 box6.addEventListener('mousemove', function(){
     box6.style.background = `rgb(${rand(255)},${rand(255)},${rand(255)})`
 })
